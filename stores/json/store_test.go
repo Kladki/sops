@@ -3,8 +3,8 @@ package json
 import (
 	"testing"
 
-	"github.com/getsops/sops/v3"
-	"github.com/getsops/sops/v3/config"
+	"github.com/Kladki/sops/v3"
+	"github.com/Kladki/sops/v3/config"
 	"github.com/stretchr/testify/assert"
 )
 

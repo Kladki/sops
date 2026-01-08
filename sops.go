@@ -34,7 +34,7 @@ be recalculated and compared with the MAC stored in the document to verify that 
 fraudulent changes have been applied. The MAC covers keys and values as well as their
 ordering.
 */
-package sops // import "github.com/getsops/sops/v3"
+package sops // import "github.com/Kladki/sops/v3"
 
 import (
 	"crypto/rand"
@@ -51,13 +51,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 
-	"github.com/getsops/sops/v3/age"
-	"github.com/getsops/sops/v3/audit"
-	"github.com/getsops/sops/v3/keys"
-	"github.com/getsops/sops/v3/keyservice"
-	"github.com/getsops/sops/v3/logging"
-	"github.com/getsops/sops/v3/pgp"
-	"github.com/getsops/sops/v3/shamir"
+	"github.com/Kladki/sops/v3/age"
+	"github.com/Kladki/sops/v3/audit"
+	"github.com/Kladki/sops/v3/keys"
+	"github.com/Kladki/sops/v3/keyservice"
+	"github.com/Kladki/sops/v3/logging"
+	"github.com/Kladki/sops/v3/pgp"
+	"github.com/Kladki/sops/v3/shamir"
 )
 
 // DefaultUnencryptedSuffix is the default suffix a TreeItem key has to end with for sops to leave its Value unencrypted

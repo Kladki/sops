@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/getsops/sops/v3"
-	"github.com/getsops/sops/v3/audit"
-	"github.com/getsops/sops/v3/cmd/sops/codes"
-	"github.com/getsops/sops/v3/cmd/sops/common"
-	"github.com/getsops/sops/v3/keys"
-	"github.com/getsops/sops/v3/keyservice"
+	"github.com/Kladki/sops/v3"
+	"github.com/Kladki/sops/v3/audit"
+	"github.com/Kladki/sops/v3/cmd/sops/codes"
+	"github.com/Kladki/sops/v3/cmd/sops/common"
+	"github.com/Kladki/sops/v3/keys"
+	"github.com/Kladki/sops/v3/keyservice"
 )
 
 type rotateOpts struct {

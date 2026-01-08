@@ -3,7 +3,7 @@ Package azkv contains an implementation of the github.com/getsops/sops/v3/keys.M
 interface that encrypts and decrypts the data key using Azure Key Vault with the
 Azure Key Vault Keys client module for Go.
 */
-package azkv // import "github.com/getsops/sops/v3/azkv"
+package azkv // import "github.com/Kladki/sops/v3/azkv"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azkeys"
 	"github.com/sirupsen/logrus"
 
-	"github.com/getsops/sops/v3/logging"
+	"github.com/Kladki/sops/v3/logging"
 )
 
 const (

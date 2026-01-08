@@ -15,14 +15,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/getsops/sops/v3"
-	"github.com/getsops/sops/v3/age"
-	"github.com/getsops/sops/v3/azkv"
-	"github.com/getsops/sops/v3/gcpkms"
-	"github.com/getsops/sops/v3/hckms"
-	"github.com/getsops/sops/v3/hcvault"
-	"github.com/getsops/sops/v3/kms"
-	"github.com/getsops/sops/v3/pgp"
+	"github.com/Kladki/sops/v3"
+	"github.com/Kladki/sops/v3/age"
+	"github.com/Kladki/sops/v3/azkv"
+	"github.com/Kladki/sops/v3/gcpkms"
+	"github.com/Kladki/sops/v3/hckms"
+	"github.com/Kladki/sops/v3/hcvault"
+	"github.com/Kladki/sops/v3/kms"
+	"github.com/Kladki/sops/v3/pgp"
 )
 
 const (
